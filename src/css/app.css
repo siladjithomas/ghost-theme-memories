@@ -1,21 +1,30 @@
 /* Variables */
-@import './abstracts/variables.css';
+/* @import './abstracts/variables.css'; */
 
 /* Base */
+@import './base/fontawesome-all.min.css';
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import './base/default.css';
+/*
 @import './base/reset.css';
 @import './base/default.css';
 @import './base/typography.css';
 @import './base/grid.css';
+*/
 
 /* Layout */
+/*
 @import './layout/navigation.css';
 @import './layout/header.css';
 @import './layout/footer.css';
+*/
 
 /* Pages */
+/*
 @import './pages/index.css';
 @import './pages/post.css';
 @import './pages/content.css';
+*/
 
 /* Vendor */
 @import './vendors/ghost.css';
