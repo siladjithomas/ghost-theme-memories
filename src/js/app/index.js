@@ -1,11 +1,5 @@
 import '../../css/app.css';
 
-import './jquery.min.js';
-import './jquery.poptrox.min.js';
-import './browser.min.js';
-import './breakpoints.min.js';
-import './util.js';
-
 /*
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn

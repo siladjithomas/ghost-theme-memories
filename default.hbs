@@ -13,6 +13,11 @@
 
         {{!-- CSS and JS with asset helper--}}
         <link rel="stylesheet" href="{{asset "built/app.css"}}" />
+        <script src="{{asset "jquery.min.js"}}"></script>
+        <script src="{{asset "jquery.poptrox.min.js"}}"></script>
+        <script src="{{asset "browser.min.js"}}"></script>
+        <script src="{{asset "breakpoints.min.js"}}"></script>
+        <script src="{{asset "util.js"}}"></script>
         <script src="{{asset "built/app.js"}}" defer></script>
 
         {{!-- contentFor/block scripts - use with defer --}}
@@ -23,26 +28,11 @@
     </head>
 
     <body class="{{body_class}} is-preload">
-        
-        <!--
-        <div class="grid">
-            {{!-- Navbar partial --}}
-            {{> "navbar"}}
-        </div>
-        -->
-        <div id="wrapper">
-            <div id="main">
-                {{!-- All content gets inserted here, index.hbs, post.hbs, etc --}}
-                {{{body}}}
-            </div>
-        </div>
 
-        <!--
-        <div class="grid">
-            {{!-- Navbar partial --}}
-            {{> "footer"}}
+        <div id="wrapper">
+            {{!-- All content gets inserted here, index.hbs, post.hbs, etc --}}
+            {{{body}}}
         </div>
-        -->
 
         {{!-- Outputs important scripts - should always be included before closing body tag --}}
         {{ghost_foot}}

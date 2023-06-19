@@ -26,7 +26,7 @@
   },
   "license": "MIT",
   "config": {
-    "posts_per_page": 15,
+    "posts_per_page": 500,
     "image_sizes": {
       "xxs": {
         "width": 50
